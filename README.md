@@ -45,22 +45,18 @@ The target environment consists of the following components:
 
 ```text
                          Internet
-                            |
-                            v
+                            ↓
                     Application Load
                        Balancer
-                            |
-                            v
+                            ↓
                     Amazon EKS Cluster
-                            |
+                            ↓
               +-------------+-------------+
-              |             |             |
-              v             v             v
+              ↓             ↓             ↓
          Microservice   Microservice   Microservice
-              |             |             |
+              ↓             ↓             ↓
               +-------------+-------------+
-                            |
-                            v
+                            ↓
                      Amazon RDS
                        PostgreSQL
 
