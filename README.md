@@ -532,7 +532,7 @@ Define requests and limits based on observed workload requirements.
 
 ---
 
-## K8S-HA-001 — Insufficient Application Replicas
+## K8S-HA-001 - Insufficient Application Replicas
 
 **Severity:** High
 
@@ -566,7 +566,7 @@ Configure the workload to run as a non-root user using Kubernetes security conte
 
 # Example CI/CD Findings
 
-## CICD-SEC-001 — Static AWS Credentials
+## CICD-SEC-001 - Static AWS Credentials
 
 **Severity:** Critical
 
