@@ -604,26 +604,19 @@ The project follows this remediation workflow:
 
 ```text
 Identify
-   |
-   v
+   ↓
 Assess Impact
-   |
-   v
+   ↓
 Prioritize
-   |
-   v
+   ↓
 Design Remediation
-   |
-   v
+   ↓
 Implement
-   |
-   v
+   ↓
 Validate
-   |
-   v
+   ↓
 Document
-   |
-   v
+   ↓
 Monitor
 ```
 
@@ -704,32 +697,23 @@ Pipeline:
 
 ```text
 Git Push
-   |
-   v
+   ↓
 Lint
-   |
-   v
+   ↓
 Unit Tests
-   |
-   v
+   ↓
 Security Scan
-   |
-   v
+   ↓
 Docker Build
-   |
-   v
+   ↓
 Container Scan
-   |
-   v
+   ↓
 Push Image
-   |
-   v
+   ↓
 Deploy
-   |
-   v
+   ↓
 Health Check
-   |
-   v
+   ↓
 Deployment Verification
 ```
 
