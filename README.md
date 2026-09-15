@@ -457,7 +457,7 @@ Status: Open
 
 # Example Findings
 
-## AWS-IAM-001 — Excessive IAM Permissions
+## AWS-IAM-001 - Excessive IAM Permissions
 
 **Severity:** High
 
@@ -473,7 +473,7 @@ Review the permissions and implement least-privilege access.
 
 ---
 
-## AWS-NET-001 — Unrestricted Security Group Access
+## AWS-NET-001 - Unrestricted Security Group Access
 
 **Severity:** Critical
 
@@ -489,7 +489,7 @@ Restrict inbound access to the required ports and trusted sources.
 
 ---
 
-## AWS-COST-001 — Unused EBS Volumes
+## AWS-COST-001 - Unused EBS Volumes
 
 **Severity:** Medium
 
@@ -507,7 +507,7 @@ Validate the volumes and remove or archive them where appropriate.
 
 # Example Kubernetes Findings
 
-## K8S-RES-001 — Missing Resource Requests and Limits
+## K8S-RES-001 - Missing Resource Requests and Limits
 
 **Severity:** High
 
@@ -548,7 +548,7 @@ Deploy multiple replicas and distribute them appropriately across the cluster.
 
 ---
 
-## K8S-SEC-001 — Container Running as Root
+## K8S-SEC-001 - Container Running as Root
 
 **Severity:** High
 
@@ -582,7 +582,7 @@ Use GitHub Actions OIDC with an appropriately scoped AWS IAM role.
 
 ---
 
-## CICD-REL-001 — Missing Rollback Strategy
+## CICD-REL-001 - Missing Rollback Strategy
 
 **Severity:** High
 
@@ -917,7 +917,7 @@ This project demonstrates practical experience in:
 
 # Project Roadmap
 
-## Phase 1 — Environment Design
+## Phase 1 - Environment Design
 
 * Define the fictional client environment
 * Design the AWS architecture
@@ -926,7 +926,7 @@ This project demonstrates practical experience in:
 * Define the assessment criteria
 * Define realistic issues to evaluate
 
-## Phase 2 — Infrastructure
+## Phase 2 - Infrastructure
 
 * Build the AWS infrastructure
 * Configure the required AWS services
@@ -935,7 +935,7 @@ This project demonstrates practical experience in:
 * Configure CI/CD
 * Configure monitoring
 
-## Phase 3 — Assessment
+## Phase 3 - Assessment
 
 * Perform AWS health check
 * Perform EKS health check
@@ -944,7 +944,7 @@ This project demonstrates practical experience in:
 * Perform cost assessment
 * Record findings
 
-## Phase 4 — Remediation
+## Phase 4 - Remediation
 
 * Fix selected AWS issues
 * Fix Kubernetes issues
@@ -952,14 +952,14 @@ This project demonstrates practical experience in:
 * Improve observability
 * Apply cost optimizations
 
-## Phase 5 — Validation
+## Phase 5 - Validation
 
 * Validate remediation
 * Capture evidence
 * Compare before and after
 * Document results
 
-## Phase 6 — Portfolio
+## Phase 6 - Portfolio
 
 * Finalize assessment report
 * Finalize architecture documentation
